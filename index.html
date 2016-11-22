@@ -2,10 +2,10 @@
 <html lang="en" class="wf-proximanova1-n4-active wf-anchorweb1-n9-active wf-anchorweb1-n5-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	
 	<title>Is BCPS Closed?</title>
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,">
 
 	<link rel="stylesheet" href="./files/style.css" type="text/css">
-	<script type="text/javascript" async="" src="./files/ga.js"></script><script type="text/javascript" src="./files/opn1ucr.js"></script>
+	
 	<style type="text/css">.tk-proxima-nova{font-family:"proxima-nova-1","proxima-nova-2",sans-serif;}.tk-anchor-web{font-family:"anchor-web-1","anchor-web-2",sans-serif;}</style><style type="text/css">@font-face{font-family:proxima-nova-1;src:url(https://use.typekit.com/af/04fb9d/00000000000000003b9ad1b9/27/l?subset_id=2&fvd=n4) format("woff2"),url(https://use.typekit.com/af/04fb9d/00000000000000003b9ad1b9/27/d?subset_id=2&fvd=n4) format("woff"),url(https://use.typekit.com/af/04fb9d/00000000000000003b9ad1b9/27/a?subset_id=2&fvd=n4) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:anchor-web-1;src:url(https://use.typekit.com/af/d547ad/00000000000000003b9acdad/27/l?subset_id=2&fvd=n9) format("woff2"),url(https://use.typekit.com/af/d547ad/00000000000000003b9acdad/27/d?subset_id=2&fvd=n9) format("woff"),url(https://use.typekit.com/af/d547ad/00000000000000003b9acdad/27/a?subset_id=2&fvd=n9) format("opentype");font-weight:900;font-style:normal;}@font-face{font-family:anchor-web-1;src:url(https://use.typekit.com/af/758884/00000000000000003b9acdaa/27/l?subset_id=2&fvd=n5) format("woff2"),url(https://use.typekit.com/af/758884/00000000000000003b9acdaa/27/d?subset_id=2&fvd=n5) format("woff"),url(https://use.typekit.com/af/758884/00000000000000003b9acdaa/27/a?subset_id=2&fvd=n5) format("opentype");font-weight:500;font-style:normal;}</style><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<script src="./files/jquery.min.js"></script>
 	<script src="./files/jquery.lettering.js"></script>
@@ -25,11 +25,14 @@ $.ajax({
             console.log(schoolName);
             if (schoolName.indexOf("Marcellus") != -1) {
                 isClosed = true;
-                $('.isit').text("YES");
+              $('.isit').text("YES");
+                $('.sub').text("School is Canceled.")  
             }
         });
         if (isClosed != true) {
             $('.isit').text("NOPE");
+            $('.sub').text("You have to go to school.")
+
         }
     }
 });
@@ -41,7 +44,7 @@ $.ajax({
 <div class="container">
 	<header>
 		<h1 class="isit" aria-label="isit" style="font-size: 370.33px;">ummm</h1>
-		
+		<h2 class="sub"></h2>
 	</header>
 		
 	
@@ -53,7 +56,6 @@ $.ajax({
 	</script>
 
 
-<script type="text/javascript" src="./files/re_.js"></script>
 <script type="text/javascript">
 try {
 reinvigorate.track("88394-92u5q858ii");
