@@ -120,6 +120,7 @@ h1 {
         transform: translate(-50%, -50%);
 }
 h2 {
+	text-align: center;
 	position: fixed;
         top: 80%;
         left: 50%;
