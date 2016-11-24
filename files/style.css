@@ -20,7 +20,7 @@ a{
 a:hover{
  	color: #4b1811;}
 
- 	
+
 .download a{
  	padding: .095em .8em;
  	background: url(../img/arrow.png) no-repeat;
@@ -34,7 +34,8 @@ a:hover{
 	color: #f4f1de;
 	margin-left: .6em;
 	margin-right: -.2em;}
- 	
+
+
 
 p{	
 	font-size: 1em;
